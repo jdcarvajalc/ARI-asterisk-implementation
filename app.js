@@ -10,6 +10,9 @@
 
 const rutaAudioMapu = '/var/lib/asterisk/sounds/custom/citas';
 
+const generarAudio = require('./js/googleTTS');
+const convertirAudio = require('./js/sox');
+
 var ari = require('ari-client');
 
 
