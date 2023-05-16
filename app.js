@@ -8,7 +8,7 @@
         4. sox-audio
 */
 
-const rutaAudioMapu = '/var/lib/asterisk/sounds/custom/citas';
+const rutaAudioMapu = '/var/lib/asterisk/sounds/custom/citaPrueba';
 
 const generarAudio = require('./js/googleTTS.js');
 const convertirAudio = require('./js/sox');
@@ -43,13 +43,10 @@ async function clientLoaded(err, client) {
     });
 
 
-    let text = "hola mundo";
+    let text = "hola mundo hola mundo";
     await generarAudio(text);
 
-    // Convertir archivo descargado a formato GSM
-    const inputFilePath = path.join(__dirname, './audio/mp3/citas.mp3');
-    const outputFilePath = path.join(__dirname, './audio/gsm/citas.gsm');
-    await convertirAudio(inputFilePath, outputFilePath);
+    await convertirAudio();
       
 
     /** Function for Playback a Sound */

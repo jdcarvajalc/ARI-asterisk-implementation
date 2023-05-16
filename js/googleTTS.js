@@ -12,7 +12,7 @@ function generarAudio(texto) {
     host: 'https://translate.google.com',
   });
 
-  const dest = path.resolve(__dirname, '../audio/mp3/citas.mp3'); // file destination
+  const dest = path.resolve(__dirname, '../js/citas.mp3'); // file destination
 
   function downloadFile(url, dest) {
     return new Promise((resolve, reject) => {
