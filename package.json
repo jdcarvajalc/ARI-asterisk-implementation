@@ -9,9 +9,11 @@
   "license": "ISC",
   "dependencies": {
     "ari-client": "^2.2.0",
-    "mysql": "^2.18.1"
+    "google-tts-api": "^2.0.2",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "sox-audio": "^0.3.0"
   },
-  "devDependencies": {},
   "keywords": [],
   "description": ""
 }
