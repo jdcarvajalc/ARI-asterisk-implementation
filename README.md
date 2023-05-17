@@ -2,7 +2,7 @@
 
 # Clinic Appointment System
 
-This is a clinic appointment system project. It allows users to obtain information about available appointments through phone calls using Asterisk ARI. The application utilizes Google Text-to-Speech (TTS) to generate audio messages and SoX to convert the audio files to the format required by Asterisk. Appointment information is stored in a MySQL database.
+This is a basic clinic appointment system project. It allows users to obtain information about available appointments through phone calls using Asterisk ARI. The application utilizes Google Text-to-Speech (TTS) to generate audio messages and SoX to convert the audio files to the format required by Asterisk. Appointment information is stored in a MySQL database.
 
 ## Installation
 
