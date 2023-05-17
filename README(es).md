@@ -45,4 +45,6 @@ node app.js
 
 4. Se reproducirá un mensaje de audio con las citas disponibles. El mensaje de audio se generará utilizando Google TTS y se convertirá al formato requerido por Asterisk (.gsm) utilizando SoX.
 
-## Licencia
+## Contribuciones
+
+Este proyecto ha sido desarrollado como parte de un curso académico y no aceptamos contribuciones externas. Sin embargo, si encuentra algún error o problema en la aplicación, puede informarlo a través de los issues en este repositorio.
