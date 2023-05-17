@@ -69,7 +69,8 @@ async function clientLoaded(err, client) {
         citasDisponibles = 'No hay citas disponibles en este momento';
     }
     else{
-        citasDisponibles = 'Las citas disponibles para esta semana son las siguientes: '
+        //citasDisponibles = 'Las citas disponibles para esta semana son las siguientes: '
+        citas
         citas.forEach(cita => {
             citasDisponibles += `${cita.date} a las ${cita.time}, `;
         });

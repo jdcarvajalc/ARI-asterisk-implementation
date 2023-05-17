@@ -3,7 +3,7 @@ const SoxCommand = require('sox-audio');
 const convertirAudio = () => {
   return new Promise((resolve, reject) => {
     const command = SoxCommand()
-      .input(__dirname + '/citas.mp3')
+      .input('/home/jdcarvajal/ari-apps/cita-ivr/audio/citas.mp3')
       .output('/home/jdcarvajal/ari-apps/cita-ivr/audio/citas.gsm')
       .outputFileType('gsm')  // Especifica el tipo de archivo de salida como GSM
       .outputSampleRate(8000) // Especifica la frecuencia de muestreo como 8000Hz
