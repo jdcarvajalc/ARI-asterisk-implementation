@@ -1,11 +1,11 @@
 {
-  "name": "y",
-  "version": "1.0.0",
+  "name": "ARI-Asterisk-Implementation",
+  "version": "1.0.2",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Juan David Carvajal C",
   "license": "ISC",
   "dependencies": {
     "ari-client": "^2.2.0",
@@ -14,5 +14,5 @@
     "sox-audio": "^0.3.0"
   },
   "keywords": [],
-  "description": ""
+  "description": "La aplicación es un sistema de citas para una clínica. Permite a los usuarios obtener información sobre las citas disponibles. Utiliza Asterisk ARI para controlar las llamadas telefónicas y proporcionar información de citas a los usuarios a través de mensajes de audio. La información de las citas se almacena en una base de datos MySQL."
 }
