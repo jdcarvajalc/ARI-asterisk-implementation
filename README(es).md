@@ -8,7 +8,7 @@ Este es un proyecto de sistema de citas para una clínica. Permite a los usuario
 
 1. Clona el repositorio del proyecto desde GitHub:
 ```
-git clone https://github.com/tu-usuario/sistema-citas-clinica.git
+git clone https://github.com/JuanDavid1321/ARI-Asterisk-Implementation.git
 
 ```
 
