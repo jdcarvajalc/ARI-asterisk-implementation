@@ -9,7 +9,7 @@ This is a basic clinic appointment system project. It allows users to obtain inf
 1. Clone the project repository from GitHub:
 
 ```
-git clone https://github.com/JuanDavid1321/ARI-Asterisk-Implementation.git
+git clone https://github.com/jdcarvajalc/ARI-Asterisk-Implementation.git
 ```
 
 2. Install the dependencies by running the following command in the project folder:
